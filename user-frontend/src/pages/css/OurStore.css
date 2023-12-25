@@ -1,0 +1,119 @@
+:root {
+    --p-main: #ff3d00;
+    --p-light: #ff9e80;
+    --p-dark: #dd2c00;
+    --b-light: #f2f2f7;
+    --b-dark: #cfd8dc;
+    --t-light: #777777;
+    --t-dark: #101418;
+}
+
+.ourstore {
+    background-color: var(--b-light);
+}
+
+/* TOP BAR */
+
+.top-bar {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.sidebar-inner-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.color-box {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.proguct-tags {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--p-main);
+}
+
+.sidebar-heading {
+    font-size: 18px;
+    font-weight: 500;
+    width: 100px;
+    line-height: 20px;
+}
+
+.sidebar-sub-heading {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sidebar-text {
+    font-size: 14px;
+}
+
+.inp-price-filter {
+    font-size: 14px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    width: 55px;
+    outline: none;
+    border: 1px solid var(--b-dark);
+}
+
+.inp-price-filter:focus {
+    border: 1px solid var(--p-main);
+}
+
+@media (max-width: 768.95px) {
+    .sidebar-inner-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 5px 5px;
+        margin-bottom: 5px;
+        background-color: white;
+        border-radius: none;
+        border: 1px solid var(--p-main);
+    }
+
+    .sidebar-heading {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .sidebar-sub-heading {
+        font-size: 17.50px;
+    }
+
+    .sidebar-text {
+        font-size: 16px;
+    }
+
+    .inp-price-filter {
+        font-size: 16px;
+        width: 100%;
+    }
+}

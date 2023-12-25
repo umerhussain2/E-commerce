@@ -1,0 +1,163 @@
+:root {
+    --p-main: #ff3d00;
+    --p-light: #ff9e80;
+    --p-dark: #dd2c00;
+    --b-light: #f2f2f7;
+    --b-dark: #cfd8dc;
+    --t-light: #777777;
+    --t-dark: #101418;
+}
+
+/* RIGHT SIDE START -------------------------------------- */
+
+.right-wrapper {
+    background: white;
+    padding: 30px 20px;
+}
+
+
+.sub-bg-wrapper {
+    background-color: var(--b-light);
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 1px solid var(--b-dark);
+}
+
+.main-heading {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--t-dark);
+}
+
+
+.sub-heading {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--t-dark);
+}
+
+.my-text {
+    font-size: 16px;
+    color: var(--t-light);
+}
+
+.my-input {
+    font-size: 17px !important;
+    color: var(--t-dark) !important;
+    padding: 8px 8px !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--b-dark) !important;
+    transition: all 0.2s ease-in-out !important;
+    outline: none !important;
+}
+
+.my-input:focus {
+    border: 1px solid var(--p-main) !important;
+    outline: none !important;
+}
+
+.my-input:active {
+    border: 1px solid var(--p-main) !important;
+    outline: none !important;
+}
+
+.full-w {
+    width: 100%;
+}
+
+.half-w {
+    width: 50%;
+}
+
+/* RIGHT SIDE END -------------------------------------- */
+
+/* LEFT SIDE START -------------------------------------- */
+
+.left-wrapper {
+    background-color: var(--b-light);
+    padding: 100px 20px;
+    border-left: 1.5px solid var(--b-dark);
+    border-top: none;
+}
+
+.product-view {
+    display: flex;
+    flex-direction: column;
+    height: 135px;
+    background: white;
+    margin-bottom: 15px;
+    overflow-y: scroll;
+    width: 100%;
+    padding: 10px 10px;
+    /* border: 1px solid var(--p-main); */
+    border-radius: 10px; 
+}
+
+.bdrBottom {
+    border-bottom: 1px solid var(--b-dark);
+}
+
+.product-title {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.product-size {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.product-desc {
+    font-size: 14px;
+}
+
+.product-quan-and-price-tot {
+    font-size: 15px;
+}
+
+.subtotal {
+    font-size: 15px;
+}
+
+.shipping {
+    font-size: 15px;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--p-dark);
+}
+
+/* LEFT SIDE END -------------------------------------- */
+
+@media (max-width : 575px) {
+    .right-wrapper {
+        padding: 15px 10px;
+    }
+    
+    .left-wrapper {
+        padding: 30px 10px;
+        border-top: 1px solid var(--b-dark);
+        border-left: none;
+    }
+
+    .main-heading {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .sub-heading {
+        font-size: 16.55px;
+    }
+
+    .stages {
+        margin-bottom: 30px;
+    }
+
+    .product-view {
+        margin-bottom: 10px;
+    }
+}

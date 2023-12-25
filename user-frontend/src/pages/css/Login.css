@@ -1,0 +1,72 @@
+:root {
+    --p-main: #ff3d00;
+    --p-light: #ff9e80;
+    --p-dark: #dd2c00;
+    --b-light: #f2f2f7;
+    --b-dark: #cfd8dc;
+    --t-light: #777777;
+    --t-dark: #101418;
+}
+
+.login-bg {
+    background-color: var(--b-light);
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--t-dark);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: white;
+    filter: drop-shadow(0 0 8px rgb(205, 205, 205));
+}
+
+.inp {
+    font-size: 16px;
+    padding: 10px 10px;
+    border: 1px solid var(--p-main);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.forgot-password {
+    text-align: start;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: var(--p-main);
+    transition: all 0.2s ease-in-out;
+
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.inp:focus {
+    outline: none;
+    border: 1px solid var(--p-dark);
+    background: var(--p-light);
+    transition: all 0.3s ease-in-out;
+}
+
+/* ON Forget Password */
+
+.reset-text {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    color: var(--p-main);
+}

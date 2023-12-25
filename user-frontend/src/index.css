@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --p-main: #ff3d00;
+  --p-light: #ff9e80;
+  --p-dark: #dd2c00;
+  --bg-light: #f5f5f7;
+  --bg-dark: #cfd8dc;
+  --t-light: #777777;
+  --t-dark: #101418;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+  padding: 0 0;
+  margin: 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Headingd */
+/* .subheading {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--t-dark);
+  margin-bottom: 0;
+} */
+
+/* Headingd End */
+
+
+/* Scroll bar */
+
+
+/* width */
+/* ::-webkit-scrollbar {
+  width: 4px;
+  height: 80px;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: var(--p-light);
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: var(--p-main);
+  border-radius: 6px;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: var(--p-dark);
+} */

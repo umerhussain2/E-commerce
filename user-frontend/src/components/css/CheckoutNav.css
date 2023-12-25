@@ -1,0 +1,28 @@
+:root {
+    --p-main: #ff3d00;
+    --p-light: #ff9e80;
+    --p-dark: #dd2c00;
+    --b-light: #eceff1;
+    --b-dark: #cfd8dc;
+    --t-light: #fff;
+    --t-dark: #101418;
+}
+
+.breadcrumb-item {
+    background: none;
+}
+
+.checkout-link {
+    background: none;
+    color: #727272;
+    transition: all 0.3s ease-in-out;
+}
+
+.checkout-link:hover {
+    color: #101418;
+    transition: all 0.3s ease-in-out;
+}
+
+.active {
+    color: var(--p-main);
+}

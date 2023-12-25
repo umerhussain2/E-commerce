@@ -1,0 +1,49 @@
+:root {
+    --p-main: #ff3d00;
+    --p-light: #ff9e80;
+    --p-dark: #dd2c00;
+    --b-light: #f2f2f7;
+    --b-dark: #cfd8dc;
+    --t-light: #777777;
+    --t-dark: #101418;
+}
+
+.header {
+    background: var(--p-main);
+    width: 100%;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    z-index: 10;
+}
+
+.menu {
+    width: 250px !important;
+    backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.links {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    color: var(--p-main);
+
+    width: 100%;
+    padding: 10px 10px;
+    transition: 0.3s;
+}
+
+.links:hover {
+    color: white;
+    background: var(--p-main);
+    transition: 0.3s;
+}
+
+.active {
+    color: white;
+    background: var(--p-dark);
+}
